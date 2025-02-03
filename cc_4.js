@@ -7,3 +7,13 @@ if (purchaseAmount > 100 ) {
 } //Discount
 console.log('Final amount after discount: $${actualAmount}'); // Logging Amount after discount
 
+
+//Task 2 For Loop
+let sales =[60, 40, 100, 70, 30]; //Array of sales figures
+let totalSales = 0 
+for (let i = 0; i < sales.length; i++) {
+    totalSales += sales[i]
+    
+}; //Loop to Calculate Total Sales
+console.log('Total Sales: $${totalSales}'); // Logging total sales
+
