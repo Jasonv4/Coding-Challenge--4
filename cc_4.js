@@ -61,5 +61,12 @@ orders.forEach(order => {
     
 }); //Logging each order id
 
+//Task 8 Function Declaration
+
+function calculateTax(amount, taxRate) {
+    return amount * taxRate
+} // Function to calculate tax
+let tax  = calculateTax(5000, .05); // Ammount and tax
+console.log(`Tax: $${tax}`); // Logging tax
 
 
