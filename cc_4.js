@@ -54,5 +54,12 @@ for (let product of products) {
 
 } // Loop of Products
 
+//Task 7 forEach() Method 
+let orders = [68,69,70]; // Declaring orders
+orders.forEach(order => {
+    console.log(`Order ID: ${order}`)
+    
+}); //Logging each order id
+
 
 
