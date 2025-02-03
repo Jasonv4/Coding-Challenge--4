@@ -27,3 +27,11 @@ while (stock > 0) {
     
 }; // Decreasing stock until it reaches 0
 console.log("No Stock Left") // When no stock is left
+
+//Task 4 Do.. While Loop
+
+let responses = 0
+do { responses++;
+    console.log(`Number of responses ${responses}`)
+    
+} while (responses < 3);
