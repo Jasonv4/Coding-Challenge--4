@@ -77,4 +77,12 @@ const applyDiscount = function(price, discountPercentage) {
 let discountedPrice = applyDiscount(50,10)
 console.log(`Discounted Price:$${discountedPrice}`); //Logging discounted price
 
+//Task 10 Arrow functions
+
+const calculatePoints = (purchaseAmount) => {
+    return (purchaseAmount / 10)
+}; //Function that calculates points earned
+let points = calculatePoints(90); // Declare number of points
+console.log(`points earned: ${points}`);// Logging Points earned
+
 
