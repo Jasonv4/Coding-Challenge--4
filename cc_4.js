@@ -17,3 +17,4 @@ for (let i = 0; i < sales.length; i++) {
 }; //Loop to Calculate Total Sales
 console.log('Total Sales: $${totalSales}'); // Logging total sales
 
+
