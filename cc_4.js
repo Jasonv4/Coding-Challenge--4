@@ -46,6 +46,13 @@ for (let key in employee) {
     console.log(`${key}: ${employee[key]}`)
         
     } // for loop
-    
+
+// Task 6 For.. Of Loop
+let products = ["cheetos", "fritos", "doritos"]; // Declaring product names
+for (let product of products) {
+    console.log(`Chip: ${product}`)
+
+} // Loop of Products
+
 
 
