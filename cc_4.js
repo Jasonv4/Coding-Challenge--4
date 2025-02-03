@@ -30,8 +30,9 @@ console.log("No Stock Left") // When no stock is left
 
 //Task 4 Do.. While Loop
 
-let responses = 0
+let responses = 0; // Initiqal responses
 do { responses++;
     console.log(`Number of responses ${responses}`)
     
-} while (responses < 3);
+} while (responses < 3); // Increasing responses until 3 
+
